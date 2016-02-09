@@ -97,7 +97,7 @@ var VKI = function(customConfig, layout, deadKeys, keyInputCallback) {
   this.VKI_isMoz = (!this.VKI_isWebKit && navigator.product == "Gecko");
 
   this.VKI_enterSubmit = config.enterSubmit || false; // true to Submit forms when Enter is pressed. Fn to execute a custom function.
-  this.VKI_showKbSelect = config.showKbSelect || false; // Defaults to hide keyboard selection combobox
+  this.VKI_showKbSelect = config.showKbSelect || true; // Defaults to hide keyboard selection combobox
 
   /* ***** i18n text strings ************************************* */
   this.VKI_i18n = config.i18n;
